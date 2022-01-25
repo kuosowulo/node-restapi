@@ -1,0 +1,29 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.1.0",
+    "helmet": "^5.0.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15",
+    "npm": "^8.3.2",
+    "util": "^0.12.4",
+    "xss": "^1.0.10",
+    "xss-clean": "^0.1.1"
+  }
+}
